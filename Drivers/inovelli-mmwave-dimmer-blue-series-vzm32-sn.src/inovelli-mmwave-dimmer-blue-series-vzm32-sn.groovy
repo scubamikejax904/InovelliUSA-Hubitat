@@ -2308,7 +2308,7 @@ def updateFirmware() {
     state.lastCommandSent =                        "updateFirmware()"
     state.lastCommandTime = nowFormatted()
     def cmds = []
-	cmds += zigbee.updateFirmware(manufacturer:0x122F, type:0x0103)
+	cmds += zigbee.updateFirmware()
 	if (debugEnable) log.debug "${device.displayName} updateFirmware $cmds"
     return cmds
 }
