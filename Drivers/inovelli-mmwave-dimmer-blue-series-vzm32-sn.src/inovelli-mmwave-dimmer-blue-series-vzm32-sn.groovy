@@ -1,4 +1,4 @@
-def getDriverDate() { return "2026-05-26" }	// **** DATE OF THE DEVICE DRIVER
+def getDriverDate() { return "2026-07-10" }	// **** DATE OF THE DEVICE DRIVER
 //  ^^^^^^^^^^  UPDATE DRIVER DATE IF YOU MAKE ANY CHANGES  ^^^^^^^^^^
 /*
 * Inovelli VZM32-SN Blue Series Zigbee 2-in-1 mmWave
@@ -24,6 +24,7 @@ def getDriverDate() { return "2026-05-26" }	// **** DATE OF THE DEVICE DRIVER
 * !!                                                                 !!
 * !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 *
+* 2026-07-10(EM) Fixing firmware update command.
 * 2026-05-26(EM) Fix for aux switch type not being set correctly. Add parameter name to parameter reporting.
 * 2026-05-16(EM) Fix for bind to MMWave Private Cluster for Reports etc. Added InterferenceArea attributes
 * 2026-04-16(EM) Always bind to MMWave Private Cluster for Reports etc.
